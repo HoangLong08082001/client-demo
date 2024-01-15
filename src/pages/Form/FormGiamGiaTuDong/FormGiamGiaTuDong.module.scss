@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  padding: 10px;
+  .success {
+    padding: 5px;
+    background-color: #22bb33;
+    p {
+      text-align: center;
+      color: white;
+      font-weight: 900;
+    }
+  }
+}

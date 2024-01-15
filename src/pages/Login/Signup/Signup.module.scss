@@ -1,0 +1,67 @@
+.wrapper {
+  border: 1px solid black;
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  .title {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .form-login {
+    flex-direction: column;
+    display: flex;
+    input {
+      width: 100%;
+      margin: 10px 0px;
+      padding: 15px 0px;
+    }
+  }
+  .btn-login {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+  }
+}
+.circle-step {
+  width: 40%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+  .step {
+    width: 100%;
+    .circle {
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      border: 1px solid black;
+      border-radius: 50%;
+      p {
+        text-align: center;
+        font-weight: 900;
+        color: black;
+      }
+    }
+    .circle-active {
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      border: 1px solid black;
+      background-color: seagreen;
+      border-radius: 50%;
+      p {
+        text-align: center;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+      }
+    }
+    .title {
+      text-align: center;
+      color: black;
+      font-weight: 900;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  margin-top: 20px;
+  width: 100%;
+  span {
+    padding: 20px;
+    color: red;
+    font-weight: 900;
+    display: flex;
+  }
+  .list-cart {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    .cart {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 20px;
+      p {
+        color: lightblue;
+        font-weight: 900;
+      }
+      button {
+        padding: 10px 15px;
+        background-color: blue;
+        color: white;
+        font-weight: 900;
+      }
+    }
+  }
+}
+.clock {
+  display: flex;
+  p {
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
